@@ -1,0 +1,19 @@
+{
+  "name": "playwright-hackathon",
+  "version": "1.0.0",
+  "description": "default framework setup",
+  "main": "",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@playwright/test": "1.17.1"
+  },
+  "scripts": {
+    "setup": "npx playwright install",
+    "test": "npx playwright test --headed"
+  },
+  "author": "",
+  "license": "ISC"
+}
